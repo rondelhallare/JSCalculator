@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css" type="text/css" media="all" />
+
+
+    <title>Simple calculator</title>
+</head>
+
+<body>
+    <h1>SIMPLE CALCULATOR</h1>
+
+    <div class="container">
+        <div class="calculator">
+            <label>Enter Value Here:</label>
+            <input type="text" value = "" id="input" Name="InputNumber" placeholder="1 + 1 = 2" >
+
+                <p>RESULT :</p>
+                <h3 id="result"></h3>
+            
+
+            <div class="main-grid1">
+                <button id="add" Name="addition" value="+" onclick="dis('+')">+</button>
+                <button id="minus" Name="subtraction" value="-" onclick="dis('-')">-</button>
+                <button id="multiply" Name="multiplication"value="*" onclick="dis('*')">*</button>
+                <button id="divide" Name="division"value="/" onclick="dis('/')">/</button>
+            </div>
+            <div class="main-grid2">
+                <button id="root" Name="root^" value="^2" onclick="dis('**2')">x^2</button>
+                <button id="modulus" name="percent" value="&" onclick="dis('%')">%</button>
+                <button id="equals" name="equals" onclick="eq()">=</button>
+                <button id ="clear" value ="c" onclick="cl()">Clear</button>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="main.js"></script>
+</body>
+
+</html>
