@@ -1,0 +1,114 @@
+body {
+    background: url(../bb.jpg) no-repeat center center fixed;
+    color: #FFF;
+    font-family: sans-serif;
+    margin: 100px;
+    padding: 0px;
+  }
+   h1 {
+    text-align: center;
+    font-size: 40px;
+    margin: 30px auto;
+    letter-spacing: 3px;
+  }
+  .container {
+    font-weight: bold;
+    border-color: black;
+    border-style: solid;
+    width: 50%;
+    margin: auto;
+    background-color:white;
+    color: white;
+    font-family: sans-serif;
+    text-align: left;
+    padding: 20px;
+  }
+  .calculator input[type="text"] {
+    width: 94.5%;
+    padding: 10px;
+    margin: 10px 0 20px;
+    outline: none;
+    color: black;
+    font-weight: 500;
+    font-family: sans-serif;
+  }
+  .main-grid1 {
+    column-gap: 10px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-width: 1000px;
+  }
+  .main-grid2 {
+    column-gap: 10px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-width: 1000px;
+  }
+  h3 {
+      font-weight: 300;
+      color: black;
+  }
+  #add, #minus, #multiply, #divide{
+      font-weight: 300;
+      font-size: 20px;
+      position: relative;
+      margin: 10px;
+      padding: 5px 10px 5px 10px;
+  }
+
+  #root, #modulus, #equals, #clear{
+    font-weight: 300;
+    font-size: 20px;
+    position: relative;
+    margin: 10px;
+    padding: 5px 10px 5px 10px;
+  }
+  
+  label {
+      color: black;
+      margin: 10px;
+      text-align: left;
+  }
+  p {
+      font-weight: 300;
+      color: black;
+      font-size: 20px;
+  }
+  #result {
+      text-align:left;
+  }
+  .callout {
+    position: fixed;
+    bottom: 35px;
+    right: 20px;
+    margin-left: 20px;
+    max-width: 300px;
+  }
+  
+  .callout-header {
+    padding: 25px 15px;
+    background: #555;
+    font-size: 30px;
+    color: white;
+  }
+  
+  .callout-container {
+    padding: 15px;
+    background-color: #ccc;
+    color: black
+  }
+  
+  .closebtn {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+  .closebtn:hover {
+    color: lightgrey;
+  }
